@@ -1,12 +1,12 @@
 def fizzbuzz_check(n):
     if (n % 3) == 0 and (n % 5) == 0:
-        print("fizzbuzz") 
+        return "fizzbuzz" 
     elif (n % 3) == 0:
-        print("fizz")
+        return "fizz"
     elif (n % 5) == 0:
-        print("buzz")
+        return "buzz"
     else:
-        print(n)
+        return str(n)
 
 print("Enter number")
 while True:
@@ -14,5 +14,5 @@ while True:
     if x == "q":
         print("Your game is over")
         break
-    fizzbuzz_check(int(x))
+    print(fizzbuzz_check(int(x)))
 # print(x)
