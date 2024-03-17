@@ -12,7 +12,7 @@ print("Enter number")
 while True:
     x = input()
     if x == "q":
-        print("Your game is over")
+        print("Your game is over")                
         break
     print(fizzbuzz_check(int(x)))
 # print(x)
