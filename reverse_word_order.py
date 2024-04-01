@@ -1,5 +1,5 @@
 def reverse(a):
-    return(a[::-1])
+    return " ".join(a[::-1])
 
 result = (input ("Enter the long phrase:")).split()
 result = reverse(result)
